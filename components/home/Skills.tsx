@@ -67,7 +67,7 @@ const SkillsSection: FC = () => {
                 ? { x: ['0%', '5%', '10%', '15%', '20%', '25%', '30%', '35%', '40%', '45%', '50%', '55%', '60%', '65%', '70%', '75%', '80%', '85%', '90%', '95%', '100%', '105%', '110%', '115%', '120%', '125%', '130%', '135%', '140%', '145%', '150%', '155%', '160%', '165%', '170%', '175%', '180%', '185%', '190%', '195%', '200%', '205%', '210%', '215%', '220%', '225%', '230%', '235%', '240%', '245%', '250%'], translate: -1500, transition: { x: ['0%', '5%', '10%', '15%', '20%', '25%', '30%', '35%', '40%', '45%', '50%', '55%', '60%', '65%', '70%', '75%', '80%', '85%', '90%', '95%', '100%', '105%', '110%', '115%', '120%', '125%', '130%', '135%', '140%', '145%', '150%', '155%', '160%', '165%', '170%', '175%', '180%', '185%', '190%', '195%', '200%', '205%', '210%', '215%', '220%', '225%', '230%', '235%', '240%', '245%', '250%'], duration: 4800000, ease: 'linear' }, transitionEnd: { x: 0 } }
                 : {}
             }
-            transition={{ duration: 60, ease: ['easeIn', 'easeOut', 'easeInOut'] }}
+            transition={{ duration: 6000, ease: ['easeIn', 'easeOut', 'easeInOut'] }}
           >
             <Image
               src='/Andri-Space-ship-1.webp'
@@ -105,7 +105,7 @@ const SkillsSection: FC = () => {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          My Skills
+          My Skills!
         </motion.h2>
         <motion.p
           className="text-lg md:text-xl mt-4 max-w-3xl mx-auto text-gray-700 font-bold"
@@ -124,7 +124,7 @@ const SkillsSection: FC = () => {
                 transition={{ type: 'spring', stiffness: 150, damping: 10 }}
                 className='relative'
               >
-                <CardBody className="bg-owlGreen-100 relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] border-white/[0.2] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border min-h-[550px] flex justify-center items-center flex-col">
+                <CardBody className="bg-owlGreen-100 relative group/card hover:shadow-2xl hover:shadow-emerald-500/[0.1] border-owlGreen-100/[0.5] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border min-h-[550px] flex justify-center items-center flex-col ">
                   <CardItem
                     translateZ="50"
                     className="px-4 text-2xl font-bold text-neutral-600"
@@ -148,7 +148,7 @@ const SkillsSection: FC = () => {
                   </CardItem>
                 </CardBody>
                 <motion.div
-                  className='absolute -inset-1 bg-emerald-500 opacity-0 blur-md rounded-lg'
+                  className='absolute -inset-1 bg-emerald-500 text-white opacity-0 blur-md rounded-lg'
                   whileHover={{ opacity: 0.4 }}
                   transition={{ duration: 0.4, ease: 'easeInOut' }}
                 />

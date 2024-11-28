@@ -31,14 +31,27 @@ const AboutMe: FC = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, ease: 'easeInOut' }}
       >
-        {/* Sparkle Animation */}
+        {/* Sparkle Animation with 5 Stars */}
         <motion.div
-          className="flex justify-center mb-8"
+          className="flex justify-center mb-8 gap-4"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: 'easeInOut' }}
         >
-          <FaStar className="w-12 h-12 text-owlGreen-600 animate-spin-slow" />
+          {[...Array(5)].map((_, index) => (
+            <motion.div
+              key={index}
+              initial={{ y: 0 }}
+              animate={{
+                y: [-10, 10, -10],
+                color: ['#FFD700', '#32CD32', '#1E90FF', '#FFD700'],
+                skew: ['0deg', '10deg', '-10deg', '0deg']
+              }}
+              transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut', delay: index * 0.3 }}
+            >
+              <FaStar className="w-12 h-12" />
+            </motion.div>
+          ))}
         </motion.div>
         <motion.h2
           className="text-4xl md:text-5xl font-bold text-owlGreen-700"
