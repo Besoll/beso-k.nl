@@ -70,13 +70,15 @@ const RecentProjects = ({
                             <Link
                                 href={link}
                                 aria-label={ariaLabel}
-                                target='_blank'
+                                target={typeof window !== 'undefined' && window.innerWidth > 768 ? '_blank' : '_self'}
                             >
                                 <div className='flex justify-center items-center'>
-                                    <p className='flex lg:text-xl md:text-xs text-sm text-MainBG'>{projectItems.checkLive}</p>
-                                    <FaLocationArrow className='ms-3' color="#0f67ae"/>
+                                    <p className='flex  md:text-md text-sm text-MainBG font-bold '>{projectItems.checkLive}</p>
+                                    <FaLocationArrow className='ms-3' color="#90a023"/>
                                 </div>
                             </Link>
+
+                            
                         </div>
 
                     </PinContainer>

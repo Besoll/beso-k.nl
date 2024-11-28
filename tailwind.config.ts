@@ -62,6 +62,8 @@ const config = {
           900: '#3c390c',
         },
 
+        owlgreen: "#90a023",
+
         MainColor: '#FEF2E4',
         MainBG: '#90a023',
         owlOrange: "#FDA800",

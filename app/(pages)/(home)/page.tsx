@@ -4,6 +4,7 @@ import { LogoCarousel } from '@/components/global/LogoCarousel'
 import dynamic from 'next/dynamic'
 import AboutMe from '@/components/home/AboutMe'
 import Skills from '@/components/home/Skills'
+import CareerHighlights from '@/components/home/CareerHighlights'
 // import ProjectsSection from '@/components/home/Projects'
 const Hero = dynamic(() => import("@/components/home/Hero"))
 // const HeroExtend = dynamic(() => import('@/components/home/HeroExtend')) 
@@ -47,10 +48,13 @@ const page = () => {
       <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-black
                           smSP:bg-[url("/veranda/v-4.webp")] mdSP:bg-[url("/veranda/v-4.webp")] lgSP:bg-[url("/veranda/v-4.webp")] bg-no-repeat bg-cover bg-center
                           '>
-        <div className='w-full h-auto flex justify-center items-center bg-MainColor/60 py-16 md:py-32 '>
+        <div className='w-full h-auto flex justify-center items-center bg-MainBG py-16 md:py-32 '>
           <StatisticsCards statisticSection={statisticSection[0]} statisticsItems={statisticsItems} /> 
         </div>
       </section>
+
+
+      <CareerHighlights />
 
 
 

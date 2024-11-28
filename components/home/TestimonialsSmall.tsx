@@ -19,8 +19,8 @@ const TestimonialsSmall = ({
     <div className='w-full flex flex-col md:flex-row justify-center items-center px-4 max-w-[1440px] gap-2 py-12 md:py-16'>
 
       <div className='w-full h-auto flex flex-col justify-center md:justify-start items-center md:items-start gap-2'>
-        <Tag title={testimonialSmall.tag} otherClass="text-MainBG font-bold" icon="tagLineBlue.svg"/>  
-        <h2 className='heading3 md:heading2 font-semibold text-center md:text-left mb-8 text-black'>
+        <Tag title={testimonialSmall.tag} otherClass="text-MainBG font-bold" icon="tagLineGreen.svg"/>  
+        <h2 className='heading3 md:heading2 font-semibold text-center md:text-left mb-8 text-black  font-regular'>
           {testimonialSmall.title} <span className='text-MainBG'>{testimonialSmall.titleStrong}</span>
         </h2>
 

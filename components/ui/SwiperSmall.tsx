@@ -38,7 +38,7 @@ export default function SwiperSmall({
 
         {/* <style jsx global>{`
             .swiper-pagination-bullet-active {
-              background: #0f67ae;
+              background: #90a023;
             }
           `}
         </style> */}
@@ -81,18 +81,18 @@ export default function SwiperSmall({
           className="flex justify-center items-center text-center w-full h-auto max-w-[1440px] px-4 py-12 md:py-16"
         >
           {testimonialsItems.map((slide) => (
-          <SwiperSlide key={slide.id} className='w-full max-w-[400xp] flex flex-col justify-start items-start bg-MainColor px-6 py-6 rounded-xl duration-300 ease-in-out md:cursor-pointer gap-8'>
+          <SwiperSlide key={slide.id} className='w-full max-w-[400xp] flex flex-col justify-start items-start bg-MainBG/10 px-6 py-6 rounded-xl duration-300 ease-in-out md:cursor-pointer gap-8'>
             <div className='w-full h-auto flex flex-col justify-cener items-start text-start py-4 gap-2 md:gap-4'>
               <div className='w-full h-auto flex flex-row justify-between items-center gap-12'>
                 <QuotationMark />
                 <div className='w-full h-auto flex flex-col justify-center items-start '>
-                  <p className='text-base font-semibold'>
+                  <p className='text-base font-bold'>
                     {slide.name}
                   </p>
                   <p className='text-sm text-black-100/80'>
                     {slide.statuswho}
                   </p>
-                  <p className='text-sm text-black-100/80'>
+                  <p className='text-sm text-black-100/80 font-regular'>
                     {slide.date}
                   </p>
                 </div>
