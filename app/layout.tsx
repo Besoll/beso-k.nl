@@ -19,8 +19,8 @@ const geistMono = localFont({
 const titleBL = "Beso Kavzharadze";
 const colorBL = '#90a023'; // Green
 const urlBL = 'https://beso-k.nl';
-const imageBL = 'https://beso-k.nl/_next/image?url=%2Fme%2FSayHiSquare.png&w=3840&q=75';
-const descriptionBL = "Professional website creation with custom designs, new technologies, Website as a Service, SEO, and tailored solutions.";  
+const imageBL = 'https://www.beso-k.nl/_next/image?url=%2Fme.webp&w=384&q=75';
+const descriptionBL = "Explore Beso Kavzharadze's extensive skills and expertise. Discover what makes Beso a versatile and dynamic professional.";  
 const creatorBL = "B. Kavzharadze - OwlWeb";
 
 export const metadata: Metadata = {
