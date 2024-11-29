@@ -583,8 +583,8 @@ export const testimonialsItems = [
 ];
 export const testimonialSmall = [
   {
-    tag: 'beSok.nl',
-    title: 'What My Customers Say ',
+    tag: 'beSo-k.nl',
+    title: 'What My Customers Say',
     titleStrong: 'Real Feedback from Satisfied Clients',
   }
 ];
