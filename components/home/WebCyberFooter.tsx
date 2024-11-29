@@ -33,7 +33,7 @@ const WebSummitFooter: React.FC = () => {
             className="object-cover w-full md:flex hidden z-0 rounded-lg mb-2"
         />
         <Image 
-              src='/websummit/beso.webp'
+              src='/websummit/beso-cyber.webp'
               alt={cyberData.title}
               width={2000}
               height={1500}
