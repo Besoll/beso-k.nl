@@ -63,8 +63,8 @@ const page = () => {
 
       <EducationAndCertifications />
 
-      {/* <IntroductionSection />
-      */}
+      <IntroductionSection />
+     
 
 
 
