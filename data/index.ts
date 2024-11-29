@@ -1404,10 +1404,25 @@ export const webSummitData = {
     mainText: "",
     subText: "Lisbon, November 11-14, 2024",
   },
-  backgroundImage: "/websummit/LIS24-horiz.webp", 
-  backgroundImage2: "/websummit/LIS24-square.webp", 
+  backgroundImage: "/websummit/beso-horiz.webp", 
+  backgroundImage2: "/websummit/beso.webp", 
   websummitLogo: "/websummit/WS24.webp",
   websummitLogoWhite: "/websummit/WS24-white.svg",
+};
+
+// Cyber data - temporary
+export const cyberData = {
+  title: "Startup at Web Summit",
+  dateLocation: "CYBERSEC 2024, Utrecht, Netherlands",
+  appointmentText: "",
+  bottomSection: {
+    mainText: "",
+    subText: "Utrecht, November 6-7, 2024",
+  },
+  backgroundImage: "/websummit/beso-cyber-horiz.webp", 
+  backgroundImage2: "/websummit/beso-cyber.webp", 
+  websummitLogo: "/websummit/cyber-logo.webp",
+  websummitLogoWhite: "/websummit/cyberSec.svg",
 };
 
 

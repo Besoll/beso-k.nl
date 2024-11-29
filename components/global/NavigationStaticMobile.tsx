@@ -84,21 +84,12 @@ const NavigationStaticMobile = ({
                             BESO
                         </p>
                     </Link>  
-                    <Link 
-                        onClick={() => setNav(!nav)}
-                        href='/#websummit'
-                        aria-label='navigate to websummit' 
-                        className='h-6 mt-6'
-                        >
-                        <Image 
-                            src='/websummit/WS24-white.svg'
-                            alt='logo websummit'
-                            width={1000}
-                            height={500}
-                            className='h-full w-auto
-                                    transition duration-300 ease-in-out cursor-pointer 
-                                    hover:scale-110 hover:skew-y-1 hover:rotate-1'
-                        />
+                    <Link
+                        href="/Beso_Kavzharadze_CV.pdf"
+                        aria-label="download CV"
+                        className="px-2 py-2 md:px-2 xl:px-8 md:py-4 border-1 md:border-2 border-owlGreen-600 text-white text-sm md:text-md xl:text-lg text-center rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300"
+                    >
+                        Download CV
                     </Link>
                 </div>
             </li>

@@ -25,7 +25,7 @@ export const FooterItemsPages = ({
                 <Link 
                     href={item.link}
                     aria-label={item.ariaLabel}
-                    className='nav-links cursor-pointer capitalize md:hover:scale-105 md:hover:text-owlOrange md:duration-300'
+                    className='nav-links font-bold cursor-pointer capitalize hover:scale-105 text-owlGreen-100 hover:text-owlGreen-500 duration-300'
                 >
                     {item.name}                     
                 </Link>
@@ -48,11 +48,11 @@ export const FooterItemsTerms = ({
   return (
     <>
         {footerItemsTerms.map((item) => (
-            <li key={item.id} className='my-2 px-2'>
+            <li key={item.id} className='my-1 px-1'>
                 <Link 
                     href={item.link}
                     aria-label={item.ariaLabel}
-                    className='nav-links cursor-pointer capitalize md:hover:scale-105 md:hover:text-owlOrange md:duration-300'
+                    className='nav-links text-xs cursor-pointer capitalize hover:scale-105 text-owlGreen-100 hover:text-owlGreen-500 duration-300'
                 >
                     {item.name}                     
                 </Link>

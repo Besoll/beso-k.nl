@@ -3,6 +3,7 @@
 import { FC } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface HeroSectionProps {}
 
@@ -67,19 +68,21 @@ const HeroSection: FC<HeroSectionProps> = () => {
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.6, duration: 1 }}
         >
-          <a
+          <Link
             href="#contact"
+            aria-label="navigate to contact form"
             onClick={scrollToContact}
             className="px-8 py-4 bg-owlGreen-600 hover:bg-owlGreen-700 text-white rounded-full shadow-lg transition-all duration-300"
           >
             Contact Me
-          </a>
-          <a
+          </Link>
+          <Link
             href="/Beso_Kavzharadze_CV.pdf"
+            aria-label="download CV"
             className="px-8 py-4 border-2 border-owlGreen-600 text-white rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300"
           >
             Download CV
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
