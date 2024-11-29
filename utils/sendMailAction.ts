@@ -7,9 +7,7 @@ interface SendMailParams {
   email: string;
   companyName: string;
   phone: string;
-  postcode: string;
-  houseNumber: string;
-  message: string;
+  message: string
 }
 
 export async function sendMailAction({
@@ -17,13 +15,11 @@ export async function sendMailAction({
   email,
   companyName,
   phone,
-  postcode,
-  houseNumber,
-  message,
-}: SendMailParams) {
-  const body = compileThankYouTemplate(name, companyName, phone, email, postcode, houseNumber, message);
+  message
+} : SendMailParams) {
+  const body = compileThankYouTemplate(name, companyName, phone, email, message);
   
-  await sendMail({ to: email, cc: "www.besok.nl@gmail.com", name, subject: "Hi, I received your email", body });
+  await sendMail({ to: email, cc: "beso@beso-k.nl ", name, subject: "Hi, I received your email", body });
 }
 
 

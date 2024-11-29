@@ -18,7 +18,7 @@ const getCurrentDate = () => {
       month: 'short',
       year: 'numeric',
     };
-    return date.toLocaleDateString('nl-NL', options);
+    return date.toLocaleDateString('en-EN', options);
     };
 
 
