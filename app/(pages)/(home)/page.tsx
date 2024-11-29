@@ -1,5 +1,5 @@
 
-import {  formItems, projectItems, statisticSection, statisticsItems, testimonialSmall,  } from '@/data'
+import {  projectItems, statisticSection, statisticsItems, testimonialSmall,  } from '@/data'
 import { LogoCarousel } from '@/components/global/LogoCarousel'
 import dynamic from 'next/dynamic'
 import AboutMe from '@/components/home/AboutMe'
@@ -8,7 +8,7 @@ import CareerHighlights from '@/components/home/CareerHighlights'
 import AchievementsSection from '@/components/home/Achivements'
 import EducationAndCertifications from '@/components/home/Education'
 import IntroductionSection from '@/components/home/IntroductionSection'
-import FormSection from '@/components/home/FormSection'
+
 // import ProjectsSection from '@/components/home/Projects'
 const Hero = dynamic(() => import("@/components/home/Hero"))
 // const HeroExtend = dynamic(() => import('@/components/home/HeroExtend')) 

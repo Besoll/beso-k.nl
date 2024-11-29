@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
-const GetStarted = dynamic(() => import('@/components/global/lotties/GetStarted')) 
-const FormSMTP = dynamic(() => import('@/components/contact/FormSMTP')) 
+const GetStarted = dynamic(() => import('@/components/global/lotties/GetStarted'), { ssr: false }) 
+const FormSMTP = dynamic(() => import('@/components/contact/FormSMTP'), { ssr: false }) 
 
 const FormSection = ({formItems} : {formItems: {
     title?: string, 
@@ -19,10 +19,9 @@ const FormSection = ({formItems} : {formItems: {
 }}) => {
   return (
     <div className='bg-MainBG shadow-xl w-[95%] rounded-xl py-8 md:px-8 flex flex-col 
-    justify-center items-center  max-w-[1440px] gap-6 scroll-mt-4 mt-6 md:mt-12
-    md:scroll-mt-24 snap-start scroll-smooth md:scroll-auto text-center z-10' id="contact">
+    justify-center items-center  max-w-[1440px] gap-6 snap-start scroll-smooth md:scroll-auto text-center z-10' id="contact">
       <GetStarted className='max-w-[100px] md:max-w-[200px]'/>
-      <p className='text-black text-2xl font-semibold -mt-4 md:-mt-8'>  
+      <p className='text-black text-2xl font-semibold mb-6 md:mb-12'>  
         {formItems?.title}
       </p>
       <FormSMTP formItems={formItems}/>
