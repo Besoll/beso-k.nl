@@ -68,64 +68,6 @@ const page = () => {
 
 
 
-      
-
-      {/* <section className='w-full h-auto flex justify-center items-center py-16 md:py-32  text-black' id='websummit' >
-          <WebSummit  />
-      </section> 
-
-      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 bg-MainBG text-black' id='pricing' >
-          <Pricing  />
-      </section> 
-
-      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='about' >
-          <Section1 homeSection1={homeSection1[0]} />
-      </section>
-
-      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          bg-MainColor pt-16 md:pt-32' id='deal' >
-          <SectionDeal i={sectionDeal[1]} /> 
-      </section>      
-      
-
-
-      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='services' >
-          <SectionServices  sectionServices={sectionServices[0]} serviceItems={serviceItems}/>
-      </section>    
-
-      <section className='w-full h-auto flex justify-center items-center py-16 md:py-32 text-black' id='howitworks'>
-          <Section2  howItWorks={howItWorks[0]} howItWorksItems={howItWorksItems}/>
-      </section>
-
-      <section 
-        className='w-full flex justify-center items-center flex-col h-auto py-6 text-black' 
-        id='testimonials' 
-        >
-        <TestimonialsBig testimonialBig={testimonialBig[0]}/>        
-      </section>
-
-
-      <SectionMetrics speedItems={speedItems[0]}/>    
-
-
-      <section className='w-full h-auto flex justify-center items-center scroll-smooth md:scroll-auto text-white 
-                          bg-MainColor pt-16 pb-16 md:pb-0 md:pt-32' >
-          <SectionDeal i={sectionDeal[0]} /> 
-      </section>
-
-      <RecentProjects projectItems={projectItems[0]}/>
-
-
-
-
-      <section className='w-full max-w-[1440px] h-auto flex flex-col md:flex-row justify-center items-center 
-                          gap-8 md:gap-12 py-8 md:py-12     
-                          px-4 md:px-6 pb-16 md:pb-32
-                          scroll-mt-16 snap-start scroll-smooth md:scroll-auto' id='faq'>  
-         
-        <FAQ accordionTitle={accordionTitle[0]} accordionInput={accordionInput} />
-      </section> */}
-
     </main>
   )
 }
