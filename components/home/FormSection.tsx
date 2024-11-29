@@ -11,15 +11,11 @@ const FormSection = ({formItems} : {formItems: {
     errorName?: string, 
     errorCompanyName?: string, 
     errorEmail?: string, 
-    errorPhone?: string, 
-    errorPostcode?: string, 
-    errorHouseNumber?: string, 
+    errorPhone?: string,
     placeholderName?: string, 
     placeholderCompanyName?: string, 
     placeholderEmail?: string, 
-    placeholderPhone?: string, 
-    placeholderPostcode?: string, 
-    placeholderHouseNumber?: string, 
+    placeholderPhone?: string,
 }}) => {
   return (
     <div className='bg-MainBG shadow-xl w-[95%] rounded-xl py-8 md:px-8 flex flex-col 

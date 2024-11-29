@@ -116,7 +116,7 @@ const IntroductionSection: FC = () => {
         </motion.div>
       </div>
 
-      {/* <FormSection formItems={formItems[0]} /> */}
+      <FormSection formItems={formItems[0]} />
     </section>
   );
 };
