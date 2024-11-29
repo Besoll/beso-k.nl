@@ -1,6 +1,6 @@
 import React from 'react';
 import { NextPage } from 'next';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 // Helper function to format the current date
 const getCurrentDate = () => {
@@ -62,7 +62,7 @@ return (
             No <br />
             We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.
           </p>
-          <p className="text-sm text-gray-500 mt-6">
+          {/* <p className="text-sm text-gray-500 mt-6">
             Logo:
           </p>
           <Image 
@@ -73,7 +73,7 @@ return (
             className='w-full max-w-[400px] h-auto
                   transition duration-300 ease-in-out cursor-pointer 
                   hover:scale-110 hover:skew-y-1 hover:rotate-1'
-          />          
+          />           */}
           <p className="text-sm text-gray-500 mt-6">
             Last updated: {currentDate}
           </p>

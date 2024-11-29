@@ -16,6 +16,8 @@ const HeroSection: FC<HeroSectionProps> = () => {
     }
   };
 
+  const downloadPasswordForCV = process.env.NEXT_DOWNLOAD_PASSWORD_FOR_CV || 'Password for download';
+
   return (
     <section className="relative w-full h-screen bg-gradient-to-b from-owlGreen-900 to-owlGreen-400" id='hero'>
       {/* Background animation */}
@@ -76,13 +78,19 @@ const HeroSection: FC<HeroSectionProps> = () => {
           >
             Contact Me
           </Link>
-          <Link
-            href="/Beso_Kavzharadze_CV.pdf"
-            aria-label="download CV"
+          <div  
             className="px-8 py-4 border-2 border-owlGreen-600 text-white rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300"
+            onClick={() => {
+              const password = prompt('Please enter the password to download the CV. If you do not have the password, feel free to request it using the contact form below:');
+              if (password === downloadPasswordForCV) {
+                window.location.href = '/Beso_Kavzharadze_CV.pdf';
+              } else {
+                alert('Incorrect password. If you need access, please reach out to me through the contact form to request the correct password.');
+              }
+            }}
           >
             Download CV
-          </Link>
+          </div>
         </motion.div>
       </div>
     </section>

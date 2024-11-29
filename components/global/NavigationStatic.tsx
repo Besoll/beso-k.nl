@@ -23,6 +23,8 @@ const NavigationStatic = ({
 
     const [nav, setNav] = useState(false);
 
+    const downloadPasswordForCV = process.env.NEXT_DOWNLOAD_PASSWORD_FOR_CV;
+
 
   return (
     <nav className='w-full flex justify-center items-center h-16 md:h-20 text-primary bg-MainBG/65 shadow-lg fixed nav z-[1500] reference'>
@@ -62,13 +64,19 @@ const NavigationStatic = ({
                                 hover:scale-110 hover:skew-y-1 hover:rotate-1'
                     />
                 </Link>
-                <Link
-                    href="/Beso_Kavzharadze_CV.pdf"
-                    aria-label="download CV"
+                <div
                     className="px-2 py-2 md:px-2 xl:px-8 md:py-4 border-1 md:border-2 border-owlGreen-600 text-white text-sm md:text-md xl:text-lg text-center rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300"
+                    onClick={() => {
+                        const password = prompt('Please enter the password to download the CV. If you do not have the password, feel free to request it using the contact form below:');
+                        if (password === downloadPasswordForCV) {
+                          window.location.href = '/Beso_Kavzharadze_CV.pdf';
+                        } else {
+                          alert('Incorrect password. If you need access, please reach out to me through the contact form to request the correct password.');
+                        }
+                      }}
                 >
                     Download CV
-                </Link>
+                </div>
             </div>
             <ul className="hidden lg:flex lg:justify-center lg:items-center">
                 {navItemsStatic.map((i) => (  
@@ -118,6 +126,3 @@ const NavigationStatic = ({
 
 export default NavigationStatic
 
-function getCurrentDate() {
-    throw new Error("Function not implemented.");
-}

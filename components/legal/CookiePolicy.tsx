@@ -22,6 +22,7 @@ const CookiePolicy: React.FC = () => {
   const companyAddress = process.env.NEXT_PUBLIC_COMPANY_ADDRESS || 'Your Address';
   const companyEmail = process.env.NEXT_PUBLIC_COMPANY_EMAIL || 'Your Email';
   const companyWebsite = process.env.NEXT_PUBLIC_COMPANY_WEBSITE || 'Your Website';
+  
 
   const [cookies, setCookies] = useState<string[]>([]);
 
