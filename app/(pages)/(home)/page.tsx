@@ -58,12 +58,12 @@ const page = () => {
       </section>
 
 
-      {/* <CareerHighlights />
+      <CareerHighlights />
       <AchievementsSection />
 
       <EducationAndCertifications />
 
-      <IntroductionSection />
+      {/* <IntroductionSection />
       */}
 
 
