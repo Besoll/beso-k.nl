@@ -10,8 +10,6 @@ interface FormFields {
   companyName: string;
   email: string;
   phone: string;
-  postcode: string;
-  houseNumber: string;
   message: string;
 }
 
@@ -26,8 +24,6 @@ export default function FormSMTP() {
     companyName: '',
     email: '',
     phone: '',
-    postcode: '',
-    houseNumber: '',
     message: '',
   });
 
@@ -45,10 +41,6 @@ export default function FormSMTP() {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? '' : 'Voer een geldig e-mailadres in';
       case 'phone':
         return /^\d{9,10}$/.test(value) ? '' : 'Telefoonnummer moet uit 9 tot 10 cijfers bestaan';
-      case 'postcode':
-        return /^[1-9][0-9]{3}\s?[a-zA-Z]{2}$/.test(value) ? '' : 'Voer een geldige Nederlandse postcode in';
-      case 'houseNumber':
-        return value ? '' : 'Voer uw huisnummer in';
       default:
         return '';
     }
@@ -71,15 +63,13 @@ export default function FormSMTP() {
     setIsSubmitting(true); // Set submitting state to true
 
     try {
-      const { name, companyName, phone, email, postcode, houseNumber, message } = formValues;
+      const { name, companyName, phone, email, message } = formValues;
 
       await sendMailAction({
         name,
         email,
         companyName,
         phone,
-        postcode,
-        houseNumber,
         message,
       });
 
