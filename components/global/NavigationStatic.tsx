@@ -29,12 +29,28 @@ const NavigationStatic = ({
 
 
   return (
-    <nav className='w-full flex justify-center items-center h-20 text-primary bg-MainBG/95 shadow-lg fixed nav z-[1500] reference'>
+    <nav className='w-full flex justify-center items-center h-20 text-primary bg-MainBG/65 shadow-lg fixed nav z-[1500] reference'>
         <div className="w-full max-w-7xl flex justify-between items-center px-4">
-            {/* <Logo otherClass="h-12" src='../logo/logo-white.svg'/> */}
             
-            <div className="flex flex-row gap-4 h-12">
-                <Logo otherClass="h-12" src='../logo/logo-white.svg'/>
+            
+            <div className="flex flex-row gap-4 h-full items-center justify-center ">
+
+                <Link 
+                    href='/#hero'
+                    className="h-full flex justify-center items-center gap-1 flex-row"
+                >
+                    <Image
+                        src="/me.webp"
+                        alt="Beso Kavzharadze"
+                        width={60}
+                        height={60}
+                        className="rounded-full shadow-lg w-auto h-full transition duration-300 ease-in-out cursor-pointer hover:scale-110 hover:skew-y-1 hover:rotate-1"
+                    />
+                    <p className="text-owlGreen-100 font-bold text-4xl transition duration-300 ease-in-out cursor-pointer hover:scale-110 hover:skew-y-1 hover:rotate-1 hover:text-white">
+                        BESO
+                    </p>
+
+                </Link>
                 <Link 
                     href='/#websummit'
                     aria-label='navigate to websummit' 
@@ -70,10 +86,10 @@ const NavigationStatic = ({
                 <li
                     className="nav-links mx-[0.63rem] cursor-pointer capitalize text-base font-bold hover:outline outline-1 outline-offset-1 rounded-md px-1 py-1 hover:scale-105 text-MainColor hover:text-neutral-100 outline-neutral-100 duration-300 link-underline"
                 >   
-                <LanguageSwitcherNav />                    
+                {/* <LanguageSwitcherNav />                     */}
                 </li>
                 
-                <li >  
+                {/* <li >  
                     <Link href="#contact-us" className="ml-5 shadow-xl px-4 hover:scale-105 transition duration-300 ease-in-out" aria-label="Navigate to contact page">
                         <MagicButton 
                             title={navButtonTitle}
@@ -83,7 +99,7 @@ const NavigationStatic = ({
                             otherClasses=""
                         />
                     </Link>
-                </li>  
+                </li>   */}
             </ul>
             
             {/* <div className="absolute top-0 right-2">

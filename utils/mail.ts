@@ -41,7 +41,7 @@ export async function sendMail({ to, cc, name, subject, body }: { to: string; cc
   }
 
 
-export function compileThankYouTemplate(name: string, companyName: string, phone: string, email: string, postcode: string, houseNumber: string, message: string) {   
+export function compileThankYouTemplate(name: string, companyName: string, phone: string, email: string, message: string) {   
 
     const template = handlebars.compile(thankYouTemplate);
     const htmlBody = template({
@@ -49,8 +49,6 @@ export function compileThankYouTemplate(name: string, companyName: string, phone
         companyName: companyName,
         phone: phone,
         email: email,
-        postcode: postcode,
-        houseNumber: houseNumber,
         message: message,
     });
 

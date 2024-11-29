@@ -16,7 +16,7 @@ const CareerHighlights: FC = () => {
         descr3: "Established collaboration memorandums with Georgian Innovation and Technology Agency, Doing in Georgia, and Invest in Georgia.",
         descr4: "Expanded technical partnerships and led critical projects that enhanced brand visibility and client satisfaction.",
         descr5: "Provided effective leadership and contributed to expanding the client base and building a strong presence in the web development sector. \n\nIntroduced automation strategies and streamlined workflows for improved delivery efficiency and enhanced team productivity.",
-        logo: "/logos/owlweb-black.svg",
+        logo: "/logosWork/owlweb-black.svg",
         companyInit: "",
         type: "Full-Time"
       },

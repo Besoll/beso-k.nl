@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <footer className="w-full max-w-full overflow-hidden flex flex-col justify-center items-center shadow-lg bg-black text-gray-300 text-md md:text-base px-2 sm:px-4 py-16 md:py-20" >
 
-        <div className="max-w-7xl flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start gap-8 md:gap-8 lg:gap-32">
+        {/* <div className="max-w-7xl flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start gap-8 md:gap-8 lg:gap-32">
             <div className='flex flex-col justify-center items-center w-[240px] h-[300px] sm:w-[380px] sm:h-[350px] md:w-[450px] md:h-[360px] xl:w-[400px] xl:h-[400px] md:mr-2 gap-3'>
                 <Link className="flex justify-center items-center" href="/" aria-label="navigate to form section">
                     <Logo otherClass="h-16" src='/logo/logo-white.svg'/>
@@ -82,9 +82,9 @@ const Footer = () => {
                     </ul> 
                 </div>
             </div>            
-        </div>
+        </div> */}
         
-        
+{/*         
         <WebSummitFooter />
         <LanguageSwitcher switchLanguage={switchLanguage} />
 
@@ -92,10 +92,10 @@ const Footer = () => {
 
         
 
-        <hr className="my-6 border-black-400 sm:mx-auto lg:my-8" />
+        <hr className="my-6 border-black-400 sm:mx-auto lg:my-8" /> */}
         
         <div className="flex justify-center text-center  pb-6 flex-col">
-            <FooterItemsCredentials  footerItemsCredentials={footerItemsCredentials} />
+            {/* <FooterItemsCredentials  footerItemsCredentials={footerItemsCredentials} /> */}
             <hr className="w-full my-2 border-black-400 md:mx-auto"/>
             <div className='text-xs'>
                     {copyright1} {copyright2} - {' '}
@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
         </div>
 
-        <div className="flex justify-center text-center py-4 flex-col">
+        {/* <div className="flex justify-center text-center py-4 flex-col">
             <p>{SocialMedia}</p>            
             <div className='text-3xl flex flex-row gap-2 justify-center items-center'>
                     <Link href={LinkedIn} aria-label="LinkedIn" target='_blank'>
@@ -127,51 +127,11 @@ const Footer = () => {
                         <FaYoutubeSquare className='hover:text-MainBG hover:scale-105 transition ease-in-out cursor-pointer' title='YouTube'/>
                     </Link>
             </div>
-        </div>
+        </div> */}
 
 
 
-        {/* KEYWORDS FOOTER */}
-        <div className="mt-8 max-w-7xl flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:items-start gap-2 md:gap-8 lg:gap-32 text-white/35">                 
-
-            <div className='w-full flex flex-col lg:flex-row'>
-                <div className='sm:w-full flex flex-row  text-center lg:text-left justify-between gap-3 sm:gap-8 py-8 lg:px-2'>
-                    <ul className='w-1/3 sm:w-full flex flex-col text-left md:w-full gap-2'>
-                        <li className="w-full font-semibold uppercase my-1 px-0 pr-2 md:pr-8">
-                            {services}
-                            <hr className="my-2 border-black-300 md:mx-auto"/>
-                        </li>
-                        <FooterItemsPages footerItemsPages={footerItemsKeywords} />
-                    </ul>
-                    <ul className='w-full flex flex-col text-right md:w-full gap-2 '>
-                        <li className="font-semibold uppercase my-1 px-2">
-                            {technologies} 
-                            <hr className="my-2 border-black-300 md:mx-auto"/>
-                        </li>
-                        <FooterItemsTerms footerItemsTerms={footerItemsTechnologies} />                 
-                    </ul> 
-                </div>
-            </div> 
-
-            <div className='w-full flex flex-col lg:flex-row'>
-                <div className='sm:w-full flex flex-row  text-center lg:text-left justify-between gap-3 sm:gap-8 py-8 lg:px-2'>
-                    <ul className='w-1/3 sm:w-full flex flex-col text-left md:w-full gap-2'>
-                        <li className="w-full font-semibold uppercase my-1 px-0 pr-2 md:pr-8">
-                            {masterTitle1}
-                            <hr className="my-2 border-black-300 md:mx-auto"/>
-                        </li>
-                        <FooterItemsPages footerItemsPages={footerItemsMaster1} />
-                    </ul>
-                    <ul className='w-full flex flex-col text-right md:w-full gap-2 '>
-                        <li className="font-semibold uppercase my-1 px-2">
-                            {masterTitle1} 
-                            <hr className="my-2 border-black-300 md:mx-auto"/>
-                        </li>
-                        <FooterItemsTerms footerItemsTerms={footerItemsMaster2} />                 
-                    </ul> 
-                </div>
-            </div>             
-        </div>
+       
     </footer>
   )
 }

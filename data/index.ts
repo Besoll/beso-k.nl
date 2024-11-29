@@ -1,10 +1,11 @@
 export const navItemsStatic = [
-  { id: 1, name: "Get Deal", link: "/get-deal", ariaLabel: "Navigate to page super deal", },
-  { id: 2, name: "Services", link: "/services", ariaLabel: "Navigate to section services", },
-  { id: 3, name: "Pricing", link: "/#pricing", ariaLabel: "Navigate to section pricing", },
+  { id: 1, name: "About Me", link: "#about", ariaLabel: "Navigate to section about me", },
+  { id: 2, name: "My Skills", link: "#skills", ariaLabel: "Navigate to section skills", },
+  { id: 3, name: "Projects", link: "#projects", ariaLabel: "Navigate to section projects", },
   // { id: 4, name: "Testimonials", link: "/#testimonials", ariaLabel: "Navigate to section testimonials", },
-  { id: 4, name: "Projects", link: "/#projects", ariaLabel: "Navigate to section Projects", },
-  { id: 5, name: "About Me", link: "/#about", ariaLabel: "Navigate to section about me", },
+  { id: 4, name: "Career Highlights", link: "#career", ariaLabel: "Navigate to section Career Highlights", },
+  { id: 5, name: "Education", link: "#education", ariaLabel: "Navigate to section education and certification section", },
+  { id: 6, name: "Contact", link: "#introduction", ariaLabel: "Navigate to section education and certification section", },
 ];
 export const navButtonTitle = 'Contact Me';
 
@@ -30,9 +31,9 @@ export const getFooterSectionTitles = {
   masterTitle2: "Websites & Landing Pages",
   switchLanguage: "Switch language to",
   copyright1: "© Alle Rights Reserved",
-  adminLink: "https://www.owlweb.nl",
+  adminLink: "https://www.beso-k.nl",
   adminAria: "Navigate to admin website",
-  copyright2: "| Developed and managed by me, beSok for myselves.",
+  copyright2: "| Developed and managed by me, Besik Kavzharadze for myselves.",
   chatButtonTitle: "Chat with us",
   chatButtonAria: "Navigate to WhatsApp chat",
   chatLink: "https://wa.me/31613734546",
@@ -220,23 +221,19 @@ export const ctaWhatsAppChat =[
 // Form
 export const formItems = [
   {
-    title: "Let us know about your business, thus we will prepare perfect quotion for you!",
+    title: "Send me your question, I would like to give you reply as soon as possible",
     submit: "Send",
     submitting: "Sending...",
     thankYou: "Thank you for your message!",
-    thankYouMassage: "We appreciate your inquiry and will get back to you shortly.",
+    thankYouMassage: "I appreciate your inquiry and will get back to you shortly.",
     errorName: 'Please enter your name', 
     errorCompanyName: 'Please enter your company name',
     errorEmail: 'Please enter your email',
     errorPhone: 'Please enter your phone',
-    errorPostcode: 'Please enter your postcode',
-    errorHouseNumber: 'Please enter your house number',
     placeholderName: 'Name',
     placeholderCompanyName: 'Company name',
     placeholderEmail: 'Email',
-    placeholderPhone: 'Phone',
-    placeholderPostcode: 'Postcode',
-    placeholderHouseNumber: 'House number',    
+    placeholderPhone: 'Phone',   
   }  
 ];
 

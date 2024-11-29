@@ -2,7 +2,7 @@ export const thankYouTemplate = `
 <!DOCTYPE html>
 <html lang="en" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
 <head>
-<title>besok.nl - Thank you email</title>
+<title>beso-k.nl - Thank you email</title>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/><!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><!--[if !mso]><!-->
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900" rel="stylesheet" type="text/css"/><!--<![endif]-->
@@ -135,19 +135,19 @@ export const thankYouTemplate = `
 <tbody>
 <tr>
 <td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fef2e4;" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-1 mobile_hide" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f8e7;" width="100%">
 <tbody>
 <tr>
 <td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fef2e4; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f8e7; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
 <tbody>
 <tr>
 <td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-bottom: 5px; padding-left: 35px; padding-top: 40px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="33.333333333333336%">
-<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae;" width="100%">
+<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023;" width="100%">
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
-<div align="center" class="alignment" style="line-height:10px; background-color: #0f67ae;">
-<div class="fullWidth" style="max-width: 191.667px;"><img alt="besok.nl - I am happy saying hi to you" height="auto" src="https://besok.nl/_next/image?url=%2Fme%2FSayHiSquare.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%; background-color: #0f67ae;" title="besok.nl - I am happy saying hi to you" width="191.667"/></div>
+<div align="center" class="alignment" style="line-height:10px; background-color: #90a023;">
+<div class="fullWidth" style="max-width: 191.667px;"><img alt="besok.nl - I am happy saying hi to you" height="auto" src="https://www.beso-k.nl/_next/image?url=%2Fme.webp&w=384&q=75" style="display: block; height: auto; border: 0; width: 100%; background-color: #90a023;" title="beso-k.nl - I am happy saying hi to you" width="191.667"/></div>
 </div>
 </td>
 </tr>
@@ -160,11 +160,11 @@ export const thankYouTemplate = `
 </tr>
 </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fef2e4;" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-2" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f8e7;" width="100%">
 <tbody>
 <tr>
 <td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fef2e4; color: #000000; width: 680px; margin: 0 auto;" width="680">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f8e7; color: #000000; width: 680px; margin: 0 auto;" width="680">
 <tbody>
 <tr>
 <td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; padding-top: 5px; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="100%">
@@ -173,7 +173,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
 <div align="center" class="alignment" style="line-height:10px">
-<div class="fullWidth" style="max-width: 374px;"><a href="https://besok.nl/" style="outline:none" tabindex="-1" target="_blank" aria-label="beSok.nl website"><img alt="beSok.nl Logo" height="auto" src="https://besok.nl/_next/image?url=%2Flogo%2Flogo.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="beSok.nl Logo" width="374"/></a></div>
+<div class="fullWidth" style="max-width: 374px;"><a href="https://beso-k.nl/" style="outline:none" tabindex="-1" target="_blank" aria-label="beSok.nl website">Beso Kavzharadze</a></div>
 </div>
 </td>
 </tr>
@@ -197,8 +197,8 @@ export const thankYouTemplate = `
 <td class="pad">
 <div style="color:#393d47;direction:ltr;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:19px;font-weight:400;letter-spacing:0px;line-height:150%;text-align:center;mso-line-height-alt:28.5px;">
 <p style="margin: 0; margin-bottom: 18px;">Dear {{name}},</p>
-<p style="margin: 0; margin-bottom: 18px;">Thank you for reaching out to beSok.nl!<br/>I\’ve received your request and our team will be in touch shortly to discuss your veranda project.</p>
-<p style="margin: 0; margin-bottom: 18px;">I look forward to helping you create the perfect outdoor space!<br/>Have a great day!</p>
+<p style="margin: 0; margin-bottom: 18px;">Thank you for reaching out to beSok.nl!<br/>I\’ve received your email and will get back to you as soon as possible.</p>
+<p style="margin: 0; margin-bottom: 18px;">I look forward to reply you soon!<br/>Have a great day!</p>
 <p style="margin: 0; margin-bottom: 18px;">Best regards,</p>
 <p style="margin: 0;">beSok.nl Team</p>
 </div>
@@ -209,7 +209,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
 <div align="center" class="alignment" style="line-height:10px">
-<div class="fullWidth" style="max-width: 374px;"><a href="https://besok.nl/" style="outline:none" tabindex="-1" target="_blank" aria-label="beSok.nl Website"><img alt="beSok.nl Logo" height="auto" src="https://besok.nl/_next/image?url=%2Flogo%2Flogo.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="beSok.nl Logo" width="374"/></a></div>
+<div class="fullWidth" style="max-width: 374px;"><a href="https://beso-k.nl/" style="outline:none" tabindex="-1" target="_blank" aria-label="beSo-k.nl Website">Beso Kavzharadze</a></div>
 </div>
 </td>
 </tr>
@@ -240,22 +240,22 @@ export const thankYouTemplate = `
 </tr>
 </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae;" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-4" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023;" width="100%">
 <tbody>
 <tr>
 <td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
 <tbody>
 <tr>
-<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #0f67ae;" width="16.666666666666668%">
-<div class="spacer_block block-1" style="height:1px;line-height:1px;font-size:1px; background-color: #0f67ae;"> </div>
+<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #90a023;" width="16.666666666666668%">
+<div class="spacer_block block-1" style="height:1px;line-height:1px;font-size:1px; background-color: #90a023;"> </div>
 </td>
-<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #0f67ae;" width="66.66666666666667%">
+<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #90a023;" width="66.66666666666667%">
 <table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
 <tr>
-<td class="pad" style="width:100%;padding-right:0px;padding-left:0px; background-color: #0f67ae;">
+<td class="pad" style="width:100%;padding-right:0px;padding-left:0px; background-color: #90a023;">
 <div align="center" class="alignment" style="line-height:10px">
-<div class="fullWidth" style="max-width: 448.8px;"><img height="auto" src="https://besok.nl/_next/image?url=%2Femail-template%2F1.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" width="448.8"/></div>
+<div class="fullWidth" style="max-width: 448.8px;"><img height="auto" src="https://beso-k.nl/_next/image?url=%2Femail-template%2F1.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" width="448.8"/></div>
 </div>
 </td>
 </tr>
@@ -271,11 +271,11 @@ export const thankYouTemplate = `
 </tr>
 </tbody>
 </table>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae;" width="100%">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-5" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023;" width="100%">
 <tbody>
 <tr>
 <td>
-<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
+<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
 <tbody>
 <tr>
 <td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px;" width="16.666666666666668%">
@@ -287,12 +287,12 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="padding-bottom:10px;padding-left:20px;padding-right:10px;padding-top:10px;text-align:center;">
 <div align="center" class="alignment"><!--[if mso]>
-<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;width:246px;v-text-anchor:middle;" arcsize="0%" strokeweight="0.75pt" strokecolor="#F5C19E" fillcolor="#0f67ae">
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:44px;width:246px;v-text-anchor:middle;" arcsize="0%" strokeweight="0.75pt" strokecolor="#F5C19E" fillcolor="#90a023">
 <w:anchorlock/>
 <v:textbox inset="0px,0px,0px,0px">
-<center dir="false" style="color:#fef2e4;font-family:Tahoma, sans-serif;font-size:16px">
+<center dir="false" style="color:#f4f8e7;font-family:Tahoma, sans-serif;font-size:16px">
 <![endif]-->
-<div style="background-color:#0f67ae;border-bottom:1px solid #F5C19E;border-left:1px solid #F5C19E;border-radius:0px;border-right:1px solid #F5C19E;border-top:1px solid #F5C19E;color:#fef2e4;display:inline-block;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:16px;font-weight:400;mso-border-alt:none;padding-bottom:5px;padding-top:5px;text-align:center;text-decoration:none;width:auto;word-break:keep-all;"><span style="word-break: break-word; padding-left: 20px; padding-right: 20px; font-size: 16px; display: inline-block; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;">beSok.nl</span></span></div><!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+<div style="background-color:#90a023;border-bottom:1px solid #F5C19E;border-left:1px solid #F5C19E;border-radius:0px;border-right:1px solid #F5C19E;border-top:1px solid #F5C19E;color:#f4f8e7;display:inline-block;font-family:Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;font-size:16px;font-weight:400;mso-border-alt:none;padding-bottom:5px;padding-top:5px;text-align:center;text-decoration:none;width:auto;word-break:keep-all;"><span style="word-break: break-word; padding-left: 20px; padding-right: 20px; font-size: 16px; display: inline-block; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;">beSok.nl</span></span></div><!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
 </div>
 </td>
 </tr>
@@ -312,8 +312,6 @@ export const thankYouTemplate = `
 <p style="margin: 0; margin-bottom: 18px;"><strong>Company Name:</strong> {{companyName}}</p>
 <p style="margin: 0; margin-bottom: 18px;"><strong>Phone:</strong> {{phone}}</p>
 <p style="margin: 0; margin-bottom: 18px;"><strong>Email:</strong> {{email}}</p>
-<p style="margin: 0; margin-bottom: 18px;"><strong>Zipcode:</strong> {{postcode}}</p>
-<p style="margin: 0; margin-bottom: 18px;"><strong>House Number:</strong> {{houseNumber}}</p>
 <p style="margin: 0;"><strong>Message:</strong> {{message}}</p>
 </div>
 </td>
@@ -331,29 +329,29 @@ export const thankYouTemplate = `
 </tr>
 </tbody>
 </table>
-	<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae;" width="100%">
+	<table align="center" border="0" cellpadding="0" cellspacing="0" class="row row-6" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023;" width="100%">
 		<tbody>
 			<tr>
 				<td>
-					<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
+					<table align="center" border="0" cellpadding="0" cellspacing="0" class="row-content stack" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023; border-radius: 0; color: #000000; width: 680px; margin: 0 auto;" width="680">
 						<tbody>
 							<tr>
-								<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #0f67ae;" width="16.666666666666668%">
+								<td class="column column-1" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #90a023;" width="16.666666666666668%">
 									<div class="spacer_block block-1" style="height:1px;line-height:1px;font-size:1px;"> </div>
 								</td>
-								<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #0f67ae;" width="66.66666666666667%">
-									<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #0f67ae;" width="100%">
+								<td class="column column-2" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #90a023;" width="66.66666666666667%">
+									<table border="0" cellpadding="0" cellspacing="0" class="image_block block-1" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #90a023;" width="100%">
 										<tr>
-											<td class="pad" style="width:100%;padding-right:0px;padding-left:0px; background-color: #0f67ae;">
+											<td class="pad" style="width:100%;padding-right:0px;padding-left:0px; background-color: #90a023;">
 												<div align="center" class="alignment" style="line-height:10px">
-													<div class="fullWidth" style="max-width: 448.8px; background-color: #0f67ae;"><img height="auto" src="https://besok.nl/_next/image?url=%2Femail-template%2F2.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" width="448.8"/></div>
+													<div class="fullWidth" style="max-width: 448.8px; background-color: #90a023;"><img height="auto" src="https://beso-k.nl/_next/image?url=%2Femail-template%2F2.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" width="448.8"/></div>
 												</div>
 											</td>
 										</tr>
 									</table>
 								</td>
-								<td class="column column-3" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #0f67ae;" width="16.666666666666668%">
-									<div class="spacer_block block-1" style="background-color: #0f67ae; height:1px;line-height:1px;font-size:1px;"> </div>
+								<td class="column column-3" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-weight: 400; text-align: left; vertical-align: top; border-top: 0px; border-right: 0px; border-bottom: 0px; border-left: 0px; background-color: #90a023;" width="16.666666666666668%">
+									<div class="spacer_block block-1" style="background-color: #90a023; height:1px;line-height:1px;font-size:1px;"> </div>
 								</td>
 							</tr>
 						</tbody>
@@ -374,7 +372,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="width:100%;">
 <div align="center" class="alignment" style="line-height:10px">
-<div style="max-width: 680px;"><img alt="veranda wooden" height="auto" src="https://besok.nl/_next/image?url=%2Fme%2FSayHiSquare.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="veranda wooden" width="680"/></div>
+<div style="max-width: 680px;"><img alt="Beso Kavzharadze" height="auto" src="https://beso-k.nl/_next/image?url=%2Fme%2FSayHiSquare.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="Beso Kavzharadze" width="680"/></div>
 </div>
 </td>
 </tr>
@@ -399,7 +397,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad">
 <div align="center" class="alignment" style="line-height:10px">
-<div class="fullWidth" style="max-width: 170px;"><a href="https://besok.nl/" style="outline:none" tabindex="-1" target="_blank"><img alt="beSok.nl Logo" height="auto" src="https://besok.nl/_next/image?url=%2Flogo%2Flogo.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="beSok.nl Logo" width="170"/></a></div>
+<div class="fullWidth" style="max-width: 170px;"><a href="https://beso-k.nl/" style="outline:none" tabindex="-1" target="_blank">beso-k.nl</a></div>
 </div>
 </td>
 </tr>

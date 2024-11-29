@@ -10,8 +10,6 @@ interface FormFields {
   companyName: string;
   email: string;
   phone: string;
-  postcode: string;
-  houseNumber: string;
   message: string;
 }
 
@@ -30,14 +28,10 @@ export default function FormSMTP({ formItems }: { formItems: {
   errorCompanyName?: string, 
   errorEmail?: string, 
   errorPhone?: string, 
-  errorPostcode?: string, 
-  errorHouseNumber?: string, 
   placeholderName?: string | undefined, 
   placeholderCompanyName?: string | undefined, 
   placeholderEmail?: string | undefined, 
   placeholderPhone?: string | undefined, 
-  placeholderPostcode?: string | undefined, 
-  placeholderHouseNumber?: string | undefined, 
 } }) {
   
   const [formValues, setFormValues] = useState<FormFields>({
@@ -45,8 +39,6 @@ export default function FormSMTP({ formItems }: { formItems: {
     companyName: '',
     email: '',
     phone: '',
-    postcode: '',
-    houseNumber: '',
     message: '',
   });
 
@@ -64,10 +56,6 @@ export default function FormSMTP({ formItems }: { formItems: {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) ? '' : formItems.errorEmail || 'Voer een geldig e-mailadres in';
       case 'phone':
         return /^\d{9,10}$/.test(value) ? '' : formItems.errorPhone || 'Telefoonnummer moet uit 9 tot 10 cijfers bestaan';
-      case 'postcode':
-        return /^[1-9][0-9]{3}\s?[a-zA-Z]{2}$/.test(value) ? '' : formItems.errorPostcode || 'Voer een geldige Nederlandse postcode in';
-      case 'houseNumber':
-        return value ? '' : formItems.errorHouseNumber || 'Voer uw huisnummer in';
       default:
         return '';
     }
@@ -90,15 +78,13 @@ export default function FormSMTP({ formItems }: { formItems: {
     setIsSubmitting(true); // Set submitting state to true
 
     try {
-      const { name, companyName, phone, email, postcode, houseNumber, message } = formValues;
+      const { name, companyName, phone, email, message } = formValues;
 
       await sendMailAction({
         name,
         email,
         companyName,
         phone,
-        postcode,
-        houseNumber,
         message,
       });
 
@@ -135,7 +121,7 @@ export default function FormSMTP({ formItems }: { formItems: {
         >
           {/* Hidden Inputs */}
           <input type="hidden" name="formName" value="main-page" />
-          <input type="hidden" name="formURL" value="https://buurmannenbuurmann.nl" />
+          <input type="hidden" name="formURL" value="https://beso@beso-k.nl" />
 
           {/* Text Inputs */}
           {Object.entries(formValues).map(([name, value], index) => (
@@ -186,7 +172,7 @@ export default function FormSMTP({ formItems }: { formItems: {
                 disabled={!isFormValid || isSubmitting}
                 className={`col-start-1 col-end-7 submit-button relative inline-flex mt-2 h-12 overflow-hidden md:min-w-[250px] w-[95%] md:w-full md:max-w-[300px] shadow-md transition duration-300 ease-in-out hover:shadow-lg rounded-xl leading-tight border-none ${isFormValid && !isSubmitting ? 'bg-MainBG hover:bg-MainBG/90' : 'bg-red/80 cursor-not-allowed'} text-white font-bold text-2xl transition-colors duration-300 relative`}
               >
-                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#013867_0%,#2EC6FE_50%,#013867_100%)]" />
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#888_0%,#444_50%,#888_100%)]" />
                 <span className={`inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg px-7 text-sm font-medium text-white  transition duration-300 ease-in-out hover:scale-110 hover:shadow-xl backdrop-blur-3xl gap-2`}>                  
                   {isSubmitting ? formItems.submitting : formItems.submit}
                   <FaWpforms />

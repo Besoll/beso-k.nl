@@ -1,10 +1,14 @@
 
-import {  projectItems, statisticSection, statisticsItems, testimonialSmall,  } from '@/data'
+import {  formItems, projectItems, statisticSection, statisticsItems, testimonialSmall,  } from '@/data'
 import { LogoCarousel } from '@/components/global/LogoCarousel'
 import dynamic from 'next/dynamic'
 import AboutMe from '@/components/home/AboutMe'
 import Skills from '@/components/home/Skills'
 import CareerHighlights from '@/components/home/CareerHighlights'
+import AchievementsSection from '@/components/home/Achivements'
+import EducationAndCertifications from '@/components/home/Education'
+import IntroductionSection from '@/components/home/IntroductionSection'
+import FormSection from '@/components/home/FormSection'
 // import ProjectsSection from '@/components/home/Projects'
 const Hero = dynamic(() => import("@/components/home/Hero"))
 // const HeroExtend = dynamic(() => import('@/components/home/HeroExtend')) 
@@ -30,7 +34,7 @@ const page = () => {
       <header className='w-full h-auto flex flex-col justify-center items-center pb-8 md:pb-16' id='heroSection'>
           <Hero />
           {/* <HeroExtend  /> */}
-          {/* <FormSection formItems={formItems[0]} /> */}
+          
       </header>
 
       <AboutMe />
@@ -55,6 +59,12 @@ const page = () => {
 
 
       <CareerHighlights />
+      <AchievementsSection />
+
+      <EducationAndCertifications />
+
+      <IntroductionSection />
+     
 
 
 

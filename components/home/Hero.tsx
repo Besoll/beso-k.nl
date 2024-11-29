@@ -16,7 +16,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
   };
 
   return (
-    <section className="relative w-full h-screen bg-gradient-to-b from-owlGreen-900 to-owlGreen-400">
+    <section className="relative w-full h-screen bg-gradient-to-b from-owlGreen-900 to-owlGreen-400" id='hero'>
       {/* Background animation */}
       <motion.div
         initial={{ opacity: 0 }}
