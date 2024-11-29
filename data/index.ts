@@ -33,7 +33,7 @@ export const getFooterSectionTitles = {
   copyright1: "© Alle Rights Reserved",
   adminLink: "https://www.beso-k.nl",
   adminAria: "Navigate to admin website",
-  copyright2: "| Developed and managed by me, Besik Kavzharadze for myselves.",
+  copyright2: "| Developed and managed by me, Besik for myselves.",
   chatButtonTitle: "Chat with us",
   chatButtonAria: "Navigate to WhatsApp chat",
   chatLink: "https://wa.me/31613734546",
