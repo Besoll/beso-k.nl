@@ -3,7 +3,6 @@ import NavigationStatic from "@/components/global/NavigationStatic";
 import { navButtonTitle, navItemsStatic } from "@/data";
 import dynamic from 'next/dynamic'
 import Link from "next/link";
-const Logo = dynamic(() => import('@/components/global/Logo'))
 const Footer = dynamic(() => import('@/components/global/Footer') ) 
 
 
