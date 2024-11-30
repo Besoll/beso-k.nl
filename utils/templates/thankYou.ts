@@ -147,7 +147,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="width:100%;padding-right:0px;padding-left:0px;">
 <div align="center" class="alignment" style="line-height:10px; background-color: #90a023;">
-<div class="fullWidth" style="max-width: 191.667px;"><img alt="besok.nl - I am happy saying hi to you" height="auto" src="https://www.beso-k.nl/_next/image?url=%2Fme.webp&w=384&q=75" style="display: block; height: auto; border: 0; width: 100%; background-color: #90a023;" title="beso-k.nl - I am happy saying hi to you" width="191.667"/></div>
+<div class="fullWidth" style="max-width: 191.667px;"><img alt="besok.nl - I am happy saying hi to you" height="auto" src="https://www.beso-k.nl/_next/image?url=%2Fme.png&w=384&q=75" style="display: block; height: auto; border: 0; width: 100%; background-color: #90a023;" title="beso-k.nl - I am happy saying hi to you" width="191.667"/></div>
 </div>
 </td>
 </tr>
@@ -372,7 +372,7 @@ export const thankYouTemplate = `
 <tr>
 <td class="pad" style="width:100%;">
 <div align="center" class="alignment" style="line-height:10px">
-<div style="max-width: 680px;"><img alt="Beso Kavzharadze" height="auto" src="https://beso-k.nl/_next/image?url=%2Fme%2FSayHiSquare.png&w=3840&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="Beso Kavzharadze" width="680"/></div>
+<div style="max-width: 680px;"><img alt="Beso Kavzharadze" height="auto" src="https://www.beso-k.nl/_next/image?url=%2Fme.png&w=384&q=75" style="display: block; height: auto; border: 0; width: 100%;" title="Beso Kavzharadze" width="680"/></div>
 </div>
 </td>
 </tr>
