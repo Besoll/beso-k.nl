@@ -6,7 +6,7 @@ const Footer = dynamic(() => import('@/components/global/Footer') )
 
 
 
-const layout = ({ children }: { children: React.ReactNode }) => {
+const layout = ({ children,  }: { children: React.ReactNode }) => {
   const downloadPasswordForCV = process.env.NEXT_DOWNLOAD_PASSWORD_FOR_CV || "password for CV";
   return (
     <>
