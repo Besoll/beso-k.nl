@@ -4,10 +4,14 @@ import { FC } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import dynamic from 'next/dynamic'
+const DownloadCV = dynamic(() => import('@/components/global/DownloadCV'))
 
-interface HeroSectionProps {}
+interface HeroSectionProps {
+  downloadPasswordForCV: string;
+}
 
-const HeroSection: FC<HeroSectionProps> = () => {
+const HeroSection: FC<HeroSectionProps> = ({ downloadPasswordForCV }) => {
   const scrollToContact = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     const contactSection = document.querySelector('#contact');
@@ -15,8 +19,6 @@ const HeroSection: FC<HeroSectionProps> = () => {
       contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
-  const downloadPasswordForCV = process.env.NEXT_DOWNLOAD_PASSWORD_FOR_CV || 'Password for download';
 
   return (
     <section className="relative w-full h-screen bg-gradient-to-b from-owlGreen-900 to-owlGreen-400" id='hero'>
@@ -78,19 +80,7 @@ const HeroSection: FC<HeroSectionProps> = () => {
           >
             Contact Me
           </Link>
-          <div  
-            className="px-8 py-4 border-2 border-owlGreen-600 text-white rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300"
-            onClick={() => {
-              const password = prompt('Please enter the password to download the CV. If you do not have the password, feel free to request it using the contact form below:');
-              if (password === downloadPasswordForCV) {
-                window.location.href = '/Beso_Kavzharadze_CV.pdf';
-              } else {
-                alert('Incorrect password. If you need access, please reach out to me through the contact form to request the correct password.');
-              }
-            }}
-          >
-            Download CV
-          </div>
+          <DownloadCV downloadPasswordForCV={downloadPasswordForCV}  otherClasses={'px-8 py-4 border-2 border-owlGreen-600 text-white rounded-full shadow-lg hover:bg-white hover:text-owlGreen-600 transition-all duration-300'}/>
         </motion.div>
       </div>
     </section>

@@ -28,11 +28,14 @@ const StatisticsCards = dynamic(() => import("@/components/home/StatisticsCards"
 
 
 const page = () => {
+
+  const downloadPasswordForCV = process.env.NEXT_DOWNLOAD_PASSWORD_FOR_CV || "password for CV";
+
   return (
     <main className='mx-auto w-full flex flex-col justify-center items-center bg-white text-black 
                     snap-y scroll-smooth md:scroll-auto scroll-mt-4 snap-start'>      
       <header className='w-full h-auto flex flex-col justify-center items-center pb-8 md:pb-16' id='heroSection'>
-          <Hero />
+          <Hero downloadPasswordForCV={downloadPasswordForCV} />
           {/* <HeroExtend  /> */}
           
       </header>
