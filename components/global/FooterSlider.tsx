@@ -6,6 +6,7 @@ import dynamic from 'next/dynamic';
 
 const WebSummitFooter = dynamic(() => import('@/components/home/WebSummitFooter'));
 const WebCyberFooter = dynamic(() => import('@/components/home/WebCyberFooter'));
+const WebCloudFooter = dynamic(() => import('@/components/home/WebCloudFooter'));
 
 const Slider: FC = () => {
   const [isPaused, setIsPaused] = useState(false);
@@ -50,7 +51,7 @@ const Slider: FC = () => {
           animate={!isPaused ? { x: [0, -300, -600, 0] } : {}}
           transition={!isPaused ? { duration: 15, repeat: Infinity, ease: 'linear' } : {}}
         >
-          {[WebSummitFooter, WebCyberFooter, WebSummitFooter, WebCyberFooter].map((Component, index) => (
+          {[WebSummitFooter, WebCyberFooter, WebCloudFooter, WebSummitFooter, WebCyberFooter, WebCloudFooter].map((Component, index) => (
             <motion.div
               key={index}
               className={`slider-item p-10 rounded-lg shadow-lg flex items-center justify-center w-full min-w-[300px] md:min-w-[500px] transition-transform duration-500 ease-in-out ${
