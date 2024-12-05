@@ -1425,6 +1425,21 @@ export const cyberData = {
   websummitLogoWhite: "/websummit/cyberSec.svg",
 };
 
+// Cyber data - temporary
+export const cloudData = {
+  title: "Startup at Web Summit",
+  dateLocation: "Cloud Expo 2024, Utrecht, Netherlands",
+  appointmentText: "",
+  bottomSection: {
+    mainText: "",
+    subText: "Utrecht, December 4-5, 2024",
+  },
+  backgroundImage: "/websummit/beso-cloud-horiz.webp", 
+  backgroundImage2: "/websummit/beso-cloud.webp", 
+  websummitLogo: "/websummit/cloud-logo.webp",
+  websummitLogoWhite: "/websummit/cloud-logo-white.svg",
+};
+
 
 export const gridItems = [
   {
