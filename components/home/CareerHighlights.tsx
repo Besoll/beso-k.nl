@@ -7,45 +7,45 @@ const Image = dynamic(() => import('next/image'));
 
 const CareerHighlights: FC = () => {
   const careerData = [
-    {
-        year: "JUN 2024 - Present",
-        position: "CTO & Co-Founder",
-        company: "OwlWeb Agency and OwlWeb Studio, Netherlands",
-        description: "Spearheading the development of high‑performance websites and digital solutions for diverse clients, focusing on superior user experience, performance, and strategic alignment with business goals. Overseeing a multidisciplinary team of developers and designers, ensuring advanced SEO, SEM, and market‑leading results for clients.",
-        descr2: "Successfully showcased OwlWeb as an ALPHA startup at Websummit 2024 Lisbon, generating 87 leads, securing 24 clients, 38 potential customers, and attracting an investor deal.",
-        descr3: "Established collaboration memorandums with Georgian Innovation and Technology Agency, Doing in Georgia, and Invest in Georgia.",
-        descr4: "Expanded technical partnerships and led critical projects that enhanced brand visibility and client satisfaction.",
-        descr5: "Provided effective leadership and contributed to expanding the client base and building a strong presence in the web development sector. \n\nIntroduced automation strategies and streamlined workflows for improved delivery efficiency and enhanced team productivity.",
-        logo: "/logosWork/owlweb-black.svg",
-        companyInit: "",
-        type: "Full-Time"
-      },
-      {
-        year: "AUG 2024 - Present",
-        position: "CEO & Founder",
-        company: "beSok, Netherlands",
-        description: "Successfully showcased OwlWeb as an ALPHA startup at Websummit 2024 Lisbon, generating 87 leads, securing 24 clients, 38 potential customers, and attracting an investor deal.",
-        descr2: "In just four months, established a base of 12 regular clients, ensuring consistent work and driving early-stage growth.",
-        descr3: "Set strategic goals for brand development, achieving growth targets within the initial operational phase.",
-        descr4: "Enhanced customer engagement strategies and facilitated successful onboarding, increasing client satisfaction and service quality.",
-        descr5: "Implemented a comprehensive digital strategy to improve online visibility, driving lead generation and conversion rates.",
-        logo: "/logosWork/besok.svg",
-        companyInit: "",
-        type: "Part-Time"
-      },
-      {
-        year: "MAR 2024 - Present",
-        position: "COO/CTO & Co-Founder",
-        company: "Willingson, Georgia",
-        description: "Responsible for leading marketing services, development of digital solutions, and overseeing technological innovation. Working closely with OwlWeb to deploy top talent in the EU and US markets.",
-        descr2: "Successfully deployed 7 senior, 16 middle, and 8 junior-level developers to major clients in the EU and USA.",
-        descr3: "Developed partnerships that amplified the company's global reach and diversified its services, contributing to international growth.",
-        descr4: "Enhanced operational efficiency through team collaboration and creative problem-solving. Promoted technology-driven marketing campaigns that improved client results and brand visibility.",
-        descr5: "",
-        logo: "/logosWork/willingson.jpeg",
-        companyInit: "",
-        type: "Part-Time"
-      },
+    // {
+    //     year: "JUN 2024 - Present",
+    //     position: "CTO & Co-Founder",
+    //     company: "OwlWeb Agency and OwlWeb Studio, Netherlands",
+    //     description: "Spearheading the development of high‑performance websites and digital solutions for diverse clients, focusing on superior user experience, performance, and strategic alignment with business goals. Overseeing a multidisciplinary team of developers and designers, ensuring advanced SEO, SEM, and market‑leading results for clients.",
+    //     descr2: "Successfully showcased OwlWeb as an ALPHA startup at Websummit 2024 Lisbon, generating 87 leads, securing 24 clients, 38 potential customers, and attracting an investor deal.",
+    //     descr3: "Established collaboration memorandums with Georgian Innovation and Technology Agency, Doing in Georgia, and Invest in Georgia.",
+    //     descr4: "Expanded technical partnerships and led critical projects that enhanced brand visibility and client satisfaction.",
+    //     descr5: "Provided effective leadership and contributed to expanding the client base and building a strong presence in the web development sector. \n\nIntroduced automation strategies and streamlined workflows for improved delivery efficiency and enhanced team productivity.",
+    //     logo: "/logosWork/owlweb-black.svg",
+    //     companyInit: "",
+    //     type: "Full-Time"
+    //   },
+    //   {
+    //     year: "AUG 2024 - Present",
+    //     position: "CEO & Founder",
+    //     company: "beSok, Netherlands",
+    //     description: "Successfully showcased OwlWeb as an ALPHA startup at Websummit 2024 Lisbon, generating 87 leads, securing 24 clients, 38 potential customers, and attracting an investor deal.",
+    //     descr2: "In just four months, established a base of 12 regular clients, ensuring consistent work and driving early-stage growth.",
+    //     descr3: "Set strategic goals for brand development, achieving growth targets within the initial operational phase.",
+    //     descr4: "Enhanced customer engagement strategies and facilitated successful onboarding, increasing client satisfaction and service quality.",
+    //     descr5: "Implemented a comprehensive digital strategy to improve online visibility, driving lead generation and conversion rates.",
+    //     logo: "/logosWork/besok.svg",
+    //     companyInit: "",
+    //     type: "Part-Time"
+    //   },
+    //   {
+    //     year: "MAR 2024 - Present",
+    //     position: "COO/CTO & Co-Founder",
+    //     company: "Willingson, Georgia",
+    //     description: "Responsible for leading marketing services, development of digital solutions, and overseeing technological innovation. Working closely with OwlWeb to deploy top talent in the EU and US markets.",
+    //     descr2: "Successfully deployed 7 senior, 16 middle, and 8 junior-level developers to major clients in the EU and USA.",
+    //     descr3: "Developed partnerships that amplified the company's global reach and diversified its services, contributing to international growth.",
+    //     descr4: "Enhanced operational efficiency through team collaboration and creative problem-solving. Promoted technology-driven marketing campaigns that improved client results and brand visibility.",
+    //     descr5: "",
+    //     logo: "/logosWork/willingson.jpeg",
+    //     companyInit: "",
+    //     type: "Part-Time"
+    //   },
       {
         year: "APR 2023 - JUN 2024",
         position: "Senior Full Stack Developer, Marketing and Video Specialist",
